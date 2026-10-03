@@ -223,14 +223,14 @@ jobs:
             --expect-base "${BASE_SHA}" --expect-upstream "${UPSTREAM_SHA}" --expect-tree "${TREE_SHA}"
 
       - name: Set up Node
-        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         timeout-minutes: 5
         with:
           node-version: "24"
           package-manager-cache: false
 
       - name: Set up uv
-        uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78 # v7.6.0
+        uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
         timeout-minutes: 5
         with:
           enable-cache: false
