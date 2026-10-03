@@ -67,7 +67,7 @@ jobs:
           if-no-files-found: error
 
       - name: Set up pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           package_json_file: autogpt_platform/frontend/package.json
 
@@ -96,7 +96,7 @@ jobs:
           persist-credentials: false
 
       - name: Set up pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           package_json_file: autogpt_platform/frontend/package.json
 
@@ -134,7 +134,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           package_json_file: autogpt_platform/frontend/package.json
 
@@ -173,7 +173,7 @@ jobs:
           submodules: recursive
 
       - name: Set up pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           package_json_file: autogpt_platform/frontend/package.json
 
